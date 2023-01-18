@@ -1,0 +1,23 @@
+.container-sm,.container,.container-lg,.container-max {
+    padding: 20px;
+    margin: auto;
+}
+
+.container-max {
+}
+
+.container-lg {
+    max-width: 1000px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.container-sm {
+    max-width: 600px;
+}
+
+.icon {
+    width: 30px;
+}

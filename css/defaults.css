@@ -1,0 +1,18 @@
+:root {
+    --black: #000;
+    --grey: #efefef;
+    --lightgrey: #f7f7f7;
+    --white: #fff;
+    --orange: #f7941d;
+    --blue: #002fed;
+    --purple: #5500cc;
+
+    --light: 300;
+    --text: 400;
+    --medium: 500;
+    --heavy: 600;
+    --xheavy: 700;
+
+    --p1: 15px;
+}
+
