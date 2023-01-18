@@ -1,4 +1,4 @@
-# MOSS WebStyles
+# MOS WebStyles
 
 A collection of web stylesheets for developing MakeOpenSource web applications
 that have a consistent look and feel.
