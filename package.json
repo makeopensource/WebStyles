@@ -1,0 +1,20 @@
+{
+  "name": "webstyles",
+  "version": "1.0.0",
+  "description": "A collection of MOS stylesheets and scripts",
+  "scripts": {
+    "start": "npm run css",
+    "css": "sass scss/:dist/css",
+    "watch": "sass --watch scss/:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeopensource/WebStyles.git"
+  },
+  "author": "Emil Kovacev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makeopensource/WebStyles/issues"
+  },
+  "homepage": "https://github.com/makeopensource/WebStyles#readme"
+}

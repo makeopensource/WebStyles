@@ -1,0 +1,36 @@
+.nav {
+    width: 100%;
+    background-color: var(--lightgrey);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.navlink {
+    font-size: 16px;
+    font-weight: var(--text);
+    color: var(--black) !important;
+    text-decoration: none;
+    margin: 10px 20px;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+}
+
+.navlink:hover {
+    color: var(--darkgrey) !important;
+    border-color: black;
+}
+
+.spacer {
+    width: 100%;
+}
+
+.page {
+    padding: 0 var(--p1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
