@@ -34,3 +34,36 @@
     margin: 0 auto;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger-close {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        flex-wrap: none;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+

@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A collection of MOS stylesheets and scripts",
   "scripts": {
-    "start": "npm run css",
-    "css": "sass scss/:dist/css",
-    "watch": "sass --watch scss/:dist/css"
+    "start": "npm-run-all build-*",
+    "build-css": "sass scss/:dist/css",
+    "css-watch": "sass --watch scss/:dist/css",
+    "build-js": "terser js/* -o dist/js/webstyles.js"
   },
   "repository": {
     "type": "git",
