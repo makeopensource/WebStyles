@@ -121,11 +121,11 @@ input.submit:hover {
 }
 
 .nav {
-  width: 100%;
+  width: calc(100% - 40px);
   background-color: var(--lightgrey);
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0 20px;
   justify-content: center;
   align-items: center;
   min-height: 50px;
@@ -283,7 +283,8 @@ code {
 }
 
 hr {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   margin: 40px auto;
 }
 
